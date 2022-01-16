@@ -1,0 +1,104 @@
+Visão Geral
+
+Pensamento computacional 
+
+ - Processo de pensamento envvolvido na expressão de soluções em 
+ passos computacionais ou algoritimos que podem ser implementados no computador.
+ - Formulação e resolução de problemas.
+ - Não é utilizado somente na area computacional.
+ - 4 pilares 
+	- Decomposição
+		- Divisão de um problema complexo em subproblemas, para ser mais simples de resolver.
+		- Segmentar o problema para depois integrar para solução do problema maior.
+	- Reconhecimento de padrões
+		- Identificação de problemas semelhantes e sua solução.
+	- Abstração
+		- Representar algo de forma generalista 
+	- Design de algoritimos
+		- Automatizar e definição do passo-a-passo da resolução do problema.
+		
+Testa => Analisa => Refina
+
+Variação dos pilares
+
+ - Raciocinio Logico
+	- Forma de pensamento estruturado ou raciocinio que permite encontrar
+	soluções ou conclusão de um problema.
+		- Indução
+			- Obersavado induz a leis e teorias para achar um padrão.
+		- Dedução
+			- Baseados em leis e teorias, prova em base no que ja existe.
+		- Abdução
+			- Utiliza da conclusão para chegar no problema/premissa. 
+	- Inferência
+		- Sintetica
+			- Abdução
+			- Indução
+		- Analitica
+			- Dedução
+ - Refinamento
+	- A partir de uma solução buscar melhorar a solução apresentada.
+	- Melhor uso de recursos
+		- Encontrar solução eficiente
+		- Otimizar processos
+	- Melhorar códigos e algoritimos
+		- Simplificar linhas de codigos
+		- Funções bem definidas
+ - Vantagens 
+	- Maior compreensão
+	- Mais eficiencia
+	- Menos tempo
+	- Menos armazenamento
+
+Competências
+ 
+ - Pensamento Sistemático
+ - Colaboração dentro da equipe 
+ - Criatividade e design
+ - Facilitador
+ 
+ - Decomposição
+	- 
+ - Reconhecimento de padrões
+	- Modelo base
+	- Estrutura invariante 
+	- Repetição
+	- Aplicação
+		- Classificação de dados
+		- Reconhecimento de imagens
+		- Reconhecimento de fala
+		- Analise de cenas
+		- Classificação de documentos 
+ - Abstração/Generalização
+	- Abstrair
+		- Observar, um ou mais elementos, avaliando caracteristicas 
+			e propriedades em separado.
+	- Abstração
+		- Processo intelectual de isolamento de um objeto da realidade.
+	- Generalizar
+		- Tornar-se  geral, mais amplo, extensão.
+ - Algoritimos
+	- Sequencia de passos com objetivo definido
+	- Execução de tarefas especificas
+	- Conjunto de operações que resultam em uma secessão finita de ações
+	- Como construir um algoritmo
+		- Compreenção do problema 
+		- Definição dados de entrada
+		- Definir processamento
+		- Definir dados de saida
+		- Utilizar um metodo de construção 
+		- Teste e diagnostico 
+	- Construção de algoritimos
+		- Narrativa
+			- Utiliza linguagem natural(Portugues, linguagem corrente)
+			- Problema de interpretações ambiguas 
+		- Fluxograma
+			- Utilza símbolos pré-definidos.
+		- Pseudocodigo
+			- Semelhante a linguagem natutal, mas possuem passos 
+				a serem seguidos, semelhantes a codificação.
+Estudo de caso
+
+ - Perdido
+ - Soma de intervalo
+ - Advinhe o número 

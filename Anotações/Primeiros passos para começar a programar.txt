@@ -1,0 +1,290 @@
+Primeiros passos para começar a programa.
+
+História da computação
+
+ - Introdução
+	- Objetivo Computação
+		- Minimizar esforços
+		- Otimizar recursos
+ - Berço da computação
+	- Pai da computação Alan Turing
+	- Algoritmo 
+		- Base matematica
+		- Noção matematica
+	- Computadores digitais
+		- Conceito 
+		- Logica
+	- Arquitetura de Von Newman
+		- Espaço de memoria
+			- Dados 
+			- Programas
+ - Instrumentos computacionais 
+	- Conceito de Software 
+		- Diferentes funções 
+		- Conjuntos mutáveis
+ - Primeiros computadores
+	- 
+ - Era dos computadores pessoais
+	- 
+ - Considerações sobre Ciência da Computação
+	- 
+Introdução à lógica de programação
+
+ - O que é lógica em programação
+	- Estrutura que visa resolver problemas
+	- Porblema
+		- Problema é uma questão que foge a uma determinada regra, 
+		ou melhor é um desvio de percurso, o queal impede de atingir
+		um objetivo com eficiencia e eficacia.
+	- Logica
+		- Parte da filosofia que trata das formas do pensamento 
+		em geral e das operações intelectuais que visam à determinação
+		do que é verdadeiro ou não.
+		- Organização e planejamento das instruções, assertivas em 
+		um algoritmo, a fim de viabilizar a implantação de um programa.
+ - Técnicas de lógica de programação
+	- Tecnica linear
+		- Sequencia de eventos linear.
+	- Tecnica estruturada
+		- Uma ordem para definir eventos.
+		- Objetivo
+			- Escrita
+			- Entendimento
+			- Validação 
+			- Manutenção
+	- Tecnica modular
+		- Decompsição de problemas.
+		- Controlada por um conjunto de regras.
+		- Divisão em três partes
+			- Dados de entrada
+			- Processo de transformação
+			- Dados de Saida
+		- Metas modular
+			- Simplificação 
+			- Decompor o problemas
+			- Verificação do modulo
+Algoritmos
+
+ - O que é um algoritimo?
+	- Processo de resolução de problemas por passo-a-passo utilizando instruções.
+	- Instruções
+		- O que precisa ser feito
+		- Qual a ordem de execução
+	- Analise
+		- Estudo e definição dos dados de entrada e saída.
+	- Algoritmo
+		- Descreve o problema por meio de ferramentas narrativas,
+		fluxograma ou pseudocodigo.
+	- Codificação
+		- O algoritimo é codificado de acordo com a linguagem de
+		programação escolhida.
+	- Algoritmo
+		- Sequencia de passos com objetivo definido.
+		- Execução de tarefas especificas.
+		- Conjunto de operações que resultam em uma sucessão
+			finita de ações.
+ - Construção de algoritmos
+	- Definição do problema
+	- Definição de entrada
+	- Definir processamento
+	- Definir dados de saida
+	- Utilizar um metodo de construção
+		- Narrativa
+		- Fluxograma
+		- Pseudocódigo
+	- Teste e diagnóstico	
+Fundamentos de algoritimos 
+
+ - Tipologia e variáveis 
+	- Variáveis
+		- Pode assumir qualquer um dos valores de um determinado
+		conjunto de valores.
+		- Atribuição de um ou mais caracteres
+		- Primeira letra - não número
+		- Sem espaços em branco 
+		- Vedado(Utilização de palavras reservadas)
+		- Caracteres e números
+		- Papeis de uma variáveis
+			- Ação: Modificação de estado
+			- Controle: Viagiada, controle
+	- Constante 
+		- Tudo que é fixo ou estável.
+ - Instruções primitivas
+	- Operadores
+		- Binário (calculo)
+		- Unário (Manutenção ou troca de sinal)
+	- Entrada, processamente e saida
+ - Estruturas condicionais e operadores
+	- Condição
+		- Estado de uma pessoa ou coisa
+	- Condicional 
+		- Que expressa uma condição ou suposição
+		- Contem ou implica uma suposição ou hipótese
+	- Estrutura condicional
+		- Simples 
+		- Composta
+		- Encadeada
+	- Operadores logicos
+		- and: Todas as condições devem ser verdadeiras.
+		- or: Uma das condições deve ser verdadeira.
+		- not: Inversor de resultado logico.
+		- Verifica condições para ver se é verdadeiro ou falso.	
+ - Estruturas de repetição
+	- Caracteriza por executar um trecho de codigo repetidas vezes.
+	- Redução de linhas
+	- Compreensão facilitada
+	- Redução de erros
+ - Vetores e matrizes
+	- Vetor é caracterizado por uma variavel dimensionada com
+	tamanho pré-fixado.
+	- Matriz é uma tabela organizada em linhas e colunas no formato
+	m x n, onde m representa o número de linhas (horizontal) e 
+	n o número de colunas (vertical).
+	- Matriz
+		- Coleção de variáveis 
+		- Contiguas em memória 
+		- Contem índices
+ - O que são funções 
+	- As funções ou sub-rotinas são blocos de instruções
+	que realizam tarefas específicas.
+	- Modularização do problema.
+	- Modularização do programa.
+	- Código mais claro e conciso.
+	- Reutilização de instruções.
+	- Funções
+		- Blocos de instuções (código), identificados 
+		por nomes e parâmetros (Assinatura da função)
+		- Definição
+		- Nome
+		- Invocação
+		- Variável local (São destruidas assim que a função for encerrada)
+ - Instruções de entrada/saída
+	- Entrada
+		- Consiste na inserção e recebimento de dados do mundo
+		real por meio de alguma interface, seja teclado, mouse, arquivos
+		entre outros.
+	- Saída
+		- Consiste na impresão dos dados do mundo abstrato, digital
+		por meio de ação de alguma interface. Os formatos podem variar
+		desde simples arquivos binários até complexas querys de banco de dados.
+		- Saida programada
+			- Condicional 
+				- Aguarda o dispositivo estar preparado para receber a informação.
+			- Incondicional
+				- A saida é apresentada independente do status do dispositivo.		
+		- Saida por interrupção
+			- O programa ou periferico interrompe o programa
+			e apresenta a saida naquele momento.
+Linguagem de programação 
+
+ - Referencias bibliograficas 
+	
+ - Introdução à linguagens de programação
+	- Problemas computacionais
+		- Objeto de discução que possui instruções passo a passo 
+		que são mais facilmente rescolvíveis em ambiente computacional.
+		- Problema de decisão 
+			- Carater lógico: Sim ou Não 
+			- Ideia: Pertencimento
+	- Problema de busca
+		- Relacionamento binário
+		- Objetivo: Semelhante ao nome. Ex. x está em A?
+	- Problemas de otimização 
+		- Objetivo
+			- Maximizar ou minimizar uma função
+	- O que é uma linguagem de programação?
+		- Método padronizado composto por um conjunto de regras
+		sintáticas e semânticas de implemtação de um código fonte (Conjunto de palavras com regras).
+ - Como o computador entende o programa
+	- Código fonte
+		- Traduzido
+			- Geração do programa objeto
+			- Execução do programa objeto
+			- Tem uma execução mais rapida
+		- Interpretado 
+			- Programa fonte executado diretamente
+			- Programas menores
+			- Maior flexibilidade
+ - Caracteristicas de um programa
+	- Desenvolvimento de programas
+		- Legibilidade
+			- Facilidade de leitura
+			- Compreensão
+			- Ortogonalidade (Coerência nas instruções)
+			- Definição adequada das estruturas
+		- Redigibilidade
+			- Pode conflitar com legibilidade
+			- Ortogonalidade
+			- Simplicidade da escrita
+			- Suporte à abstração
+			- Reuso do código
+			- Expressividade
+		- Confiabilidade
+			- Verificação de tipos
+			- Trata exceções
+			- Uso de ponteiros (Referencia da variavel na memória)
+			- Compatibilidade entre compiladores
+		- Custo
+			- Treinamento
+			- Codificação
+			- Compilação
+			- Execução
+			- Infra-estruturada
+ - Análises de código
+	- Analise léxica
+		- Particionar 
+			- Divididos em tokens
+		- Classificar
+			- Calssificar elementos: identificadores,
+				palavras reservadas, números, strings,...
+		- Eliminar
+	- Analise sintática
+		- Sintaxe: componente do sistema linguistico que interligam
+		os constituintes da sentença, atribuindo-lhe uma estrutura.
+		- Padrão - Gramática
+			- Depende da linguagem de programação utilizada
+	- Analise semântica 
+		- Semântica: é o estudo do significado. Incide sobre a relação
+		entre significantes, como: palavras, frases, sinais e símbolos.
+		- Erro de semântica
+			- Não faz o que é esperado
+ - Paradigmas de programação
+	- Paradigma
+		- Forma de resolução de problemas com diretrizes e limitações
+		específicas de cada paradigma utilizando linguagem de programação.
+		- Orientação à objeto
+			- Abstração que trata o programa com base em classe e objetos
+			- Analogia ao mundo real
+			- Objeto: Um objeto é descrito por caracteristicas especificas, 
+				comportamentos e estado.
+				- O que tenho (Atributos)
+				- Sou capaz de fazer (Métodos)
+				- Como faço (Estados)
+			- Classe
+				- Um conjunto de objetos similares
+				- Alocação de memória 
+				- Operações associadas 
+			- Pilares de orientação a objeto
+				- Herança 
+				- Encapsulamento 
+				- Polimorfismo
+				- Abstração
+		- Procedural
+			- Chamadas sucessivas e procedimentos separados 
+		- Funcional 
+			- Instruções são baseadas em funções
+		- Estruturado
+			- Estrutura de blocos aninhados
+			- Conceito	
+				- Sequencia
+				- Decisão
+				- Iteração
+			- Utilização
+				- Problemas simples e diretos
+				- Aprender programação
+		- Computação distribuída
+			- Funções executadas de maneiras independente
+		- Lógico
+	- POO x PE
+		- POO: Reuso de código
+		- PE: Problemas específicos e diretos

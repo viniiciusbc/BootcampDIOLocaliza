@@ -1,0 +1,64 @@
+Principais estruturas de dados
+
+Vetores e Matrizes
+registros 
+Listas 
+Pilha 
+Fila 
+Arvore 
+Tabela hash 
+Grafos.
+
+Vetores e Matrizes
+
+- Utiliza variaveis do mesmo Tipo.
+
+Registros
+
+- Formato diferente vetor e matriz, registro ele permite dados
+de tipos diferente. 
+- Composto por campos que especificam um registro.
+
+Listas
+
+- Armazena dados de um determinado tipo e ajustavel.
+- Não tem um tamanho fixo é ajustavel.
+- 2 tipos de lista
+	- ligadas
+		- existens nós/indices, conhece o valor contido e o proximo valor.
+	- duplamente ligada
+		- Diferença da ligada, a duplamente ligada é bidirecional. É possivel ser inserido
+			valor em qualquer ponto da lista. O elemento ele conhece o proximo elemento e o 
+			anterior também.
+			
+Pilhas
+
+- Permite somente acesso ao item somente uma vez, item pode ser lido/removido 
+	somente uma unica vez.
+- 2 tipos de pilhas
+		- LIFO (Last in first out) ou UEPS
+			- Primeiro elemento a ser retirado é o ultimo que foi inserido.
+		- FIFO (first in firt out) ou PEPS
+			- O primeiro que entra é o primeiro que sai.
+
+Filas 
+
+- O elemento removido é o que esta mais tempo na lista, o primeiro
+	que entrou é o primeiro a sair semelhante ao FIFO.
+	
+Arvore
+
+- Organizada de forma hierarquica, raiz que fica no top da arvore
+	e os elementos subordinados que vem abaixo que são folhas ou nós.
+
+Tabela hash
+
+- Associa chave de pesquisa dos valores de dados, os elementos não são ordenados
+	e a pesquisa é feita de forma que a busca é feita pela chave/codigo 
+	referente a esse valor.
+
+Grafos
+
+- Estruturas com vertices e nós relacionados por arestas, conhece somente
+	o nó ligada a mesma aresta.
+- Não existe uma direção para relacionamento de nós.

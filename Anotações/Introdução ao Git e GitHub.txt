@@ -1,0 +1,102 @@
+Introdução do Git e GitHub
+
+Introdução ao Git
+
+ - Entendendo o que é Git e sua importância
+	- Controle de versão 
+	- Armazenamento em nuvem 
+	- Trabalho em equipe 
+	- Melhorar seu código
+	- Reconhecimento
+ 
+Navegação via command line e interface e instalação
+
+ - Comandos básicos para um desempenho no terminal 
+	- CLI - Command line interface
+	- Mudar de pastas
+		- cd
+	- Listar as pastas
+		- dir
+	- Criar pastas/arquivos
+		- mkdir
+	- Deletar pastas/arquivos
+		- rmdir nome_pasta /S /Q
+		- del
+	
+ - Ralizando a instalação do Git 
+
+Entendendo como o Git funciona por baixo dos panos
+
+ - Tópicos fundamentais para entender o funcionamento do Git
+	- SHA1
+		- A sigla SHA significa Secure Hash Algorithm, é um conjunto
+		de funções hash criptográfadas projetadas pela NSA (Agência de 
+		Segurança Nacional dos EUA).
+		- Gera um conjunto de caracteres de 40 dígitos.
+		- É uma forma curta de representar um arquivo
+	- Objetos fundamentais
+	- Sistema distribuido
+	- Segurança
+ - Objetos internos do Git
+	- Blobs 
+		- Blob
+		- Tamanho 
+	- Trees
+		- /0
+		- blob
+		- sha1
+		- nome do arquivo
+	- Commits
+		- Tree
+		- Parente
+		- Autor
+		- Mensagem 
+		- Timestamp
+		- o sha1 desse commit é o hash de toda essa informação
+ - Chave SSH e Token
+	- Chave SSH
+		- Uma forma de estabelecer conexão segura entre duas maquinas
+		- Uma chave publica e uma chave privada
+		- Criar chave SSH
+			- ssh-keygen --t ed25519 -C e-mail
+		- Ativar processo 
+			- eval $(ssh-agent -s)
+				Agent pid 0000
+			- ssh-add id chave privada
+	- Token de acesso
+		- 
+ 
+Primeiros comandos com Git
+
+ - Iniciando o Git e criando um commit
+	- Iniciar o Git
+		- git init
+		- git config --global user.email
+		- git config --global user.name
+	- Iniciar o versionamento 
+		- git add
+	- Criar um commit
+		- git commit
+		- git commit -m "Mensagem"
+ 
+Ciclo de vida dos arquivos no Git
+
+ - Passo a Passo no ciclo de vida
+	- Untracked
+	- Unmodified
+	- Modified
+	- Staged	
+ 
+Introdução ao GitHub
+
+ - Trabalhando com o GitHub
+	- Vincular git ao repositorio local
+		- git remote add origin git@github.com:viniiciusbc/livro-receitas.git
+	- Empurrar cogido para o git 
+		- git push origin master
+ 
+Resolvendo conflitos 
+
+ - Como os conflitos acontecem no GitHub e como resolve-los
+	- Puxar arquivos alterados.
+		- git pull origin master
