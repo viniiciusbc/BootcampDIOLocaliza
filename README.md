@@ -12,14 +12,14 @@ Repositório destinado a anotações do Bootcamp DIO - Localiza.
  - Projetos ágeis com SCRUM
  - Introdução ao Git e ao GitHub
  - Criando seu primeiro repositório no GitHub para compartilhar seu progresso
+ - IDE Instalação e configuração (Visual Studio)
 
 ## Conteúdo em andamento 
 
- - IDE Instalação e configuração (Visual Studio)
+ - Introdução ao C# e .NET
 
 ## Conteúdos a fazer
 
- - Introdução ao C# e .NET
  - Primeiros passos com .NET
  - Criando o ambiente de desenvolvimento
  - Programmando com Orientação a Objeto com C#
