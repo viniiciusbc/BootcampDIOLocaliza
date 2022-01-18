@@ -13,14 +13,14 @@ Repositório destinado a anotações do Bootcamp DIO - Localiza.
  - Introdução ao Git e ao GitHub
  - Criando seu primeiro repositório no GitHub para compartilhar seu progresso
  - IDE Instalação e configuração (Visual Studio)
+ - Introdução ao C# e .NET
 
 ## Conteúdo em andamento 
 
- - Introdução ao C# e .NET
+ - Primeiros passos com .NET
 
 ## Conteúdos a fazer
 
- - Primeiros passos com .NET
  - Criando o ambiente de desenvolvimento
  - Programmando com Orientação a Objeto com C#
  - Construtores, propriedades, delegates e eventos em .NET

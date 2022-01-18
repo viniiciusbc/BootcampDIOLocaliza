@@ -4,15 +4,51 @@ Introdução ao C# e .NET
 	
 	- Apresentação do curso
 	- Criando seu primeiro projeto em C#
+		- O que é .NET?
+			- É um framework criado pela Microsoft que permite a 
+			comunicação entre várias linguagens que tem uma infraestrutura
+			comum (CLI), entre elas o Visual basic, C++, F# e C#
+		- O que é C#?
+			- Uma linguagem orientada a objetos fortemente tipada.
+			A sintaxe orientada a objetos foi baseada no C++ e possui
+			influências de outras linguagens de programação como 
+			Object Pascal e Java.
+		- Solução
+		 - Uma solução é um container para organizar os projetos relacionados.
+		- Diretórios 
+			- Os diretórios e arquivos do projeto podem ser vistos pelo
+			gerenciados de soluções, que pode ser acessado pelo menu exibir
+			- No gerenciador de soluções podemos adicionar mais projetos, 
+			classes ao projeto, diretórios, e mexer no projeto de forma geral.
+			
 	- Na prática
 	
  Estruturas
  
 	- Namespaces
+		- Os namespaces são usados para organizar classes.
+		- Para usar uma classe de outro namespace, colocamos using
+		no começo do código.
 	- Classes
+		- Uma classe pode ter campos, propriedades, métodos e eventos
+		dentro dela que são denominados membros.
+		- Quando uma classe é isntanciada, essa instância é chamda de 
+		objeto, e nesse objeto podem ser criados os valores de acordo
+		com os campos da classe.
 	- Interface
+		- É como uma classe base que serve de molde para várias classes.
+		- Uma classe que implementa uma interface deve implementar todos 
+		os membros.
 	- Enum
+		- Declara um conjunto de constantes nomeadas que começam do 
+		0 e aumentam de 1 em 1.
 
  Debugging
  
 	- Debugging
+		- Depuração
+			- A depuração pode ser feita colocando um BreakPoint no canto 
+			esquerdo do código ou apertando g9 e executando ele.
+			- O código vai parar onde foi colocado o BreakPoint e então o 
+			código poderá ser inspencionado.
+			
