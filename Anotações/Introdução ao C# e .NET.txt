@@ -1,0 +1,18 @@
+Introdução ao C# e .NET
+
+ Criando o primeiro projeto em C#
+	
+	- Apresentação do curso
+	- Criando seu primeiro projeto em C#
+	- Na prática
+	
+ Estruturas
+ 
+	- Namespaces
+	- Classes
+	- Interface
+	- Enum
+
+ Debugging
+ 
+	- Debugging

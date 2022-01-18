@@ -1,0 +1,32 @@
+IDE Instalação e Configuração (Visual Studio)
+
+Instalando e conhecendo a IDE
+
+ - Apresentação do curso
+ - Instalação do Visual Studio para Windows
+ 
+Gerando código e debugging
+
+ - Gerando código e debugging
+	- Geração de código 
+	- Inspenção de código
+	- Debugging
+ 
+Integração com Git e GitHub
+
+ - Integração com Git e GitHub
+ 
+Criando teste
+
+	- Testes
+	 - arrange
+		- A seção Organizar de um método de teste de unidade
+		inicializa os objetos e define o valor dos dados 
+		que são passados para o método sendo testado.
+	 - act
+		- A seção Agir invoca o método sendo testado 
+		com os parâmentros organizados.
+	 - assert
+		- A seção Declarar verifica se a ação do método em teste
+		se comporta conforme o esperado.
+	- Encerramento do curso
