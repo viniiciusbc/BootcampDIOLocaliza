@@ -5,24 +5,159 @@ Primeiros passos com .NET
 	- Conhecendo o framework 
 		- 
 	- Como e aonde usar .NET
-		- 
+		- O que é .NET	
+			- Infraestrutura para desenvolvimento de software criada
+			pela Microsoft.
+			- Uma aplicação.NET é desenvolvida para e roda em uma 
+			das seguintes implementações do .NET:
+				- .NET Core
+				- .NET Framework
+				- Mono
+				- Universal Windows Plataform (UWP)
+			- Cada implementação inclui um ou mais .NET Runtimes 
+			(ambiente de execução)
+				- .NET Core:  CoreCLR e CoreRT
+				- .NET Framework: CLR
+				- Mono: Mono Runtime
+				- Universal Windows Plataform (UWP): .NET Native
+			- Atualmente a Microsoft desenvolve e suporta 3 
+			linguagens para .NET
+				- C#
+				- F#
+				- Visual Basic (VB)
+		- Onde usar .NET
+			- Desktop: WPF, Windows Forms, UWP
+			- WEB: ASP.NET
+			- Cloud: Azure
+			- Mobile: Xamarin
+			- Gaming: Unity
+			- IoT: ARM32, ARM64
+			- AI: ML.NET, .NET for Apache Spark
+		- Tools
+			- Visual Studio
+			- Visual Studio for MAC
+			- Visual Studio Code
+			- Command line interface
  
  Iniciando com .NET
  
 	- Preparando o ambiente 
+		- 
 	- Conhecendo a CLI do .NET
 	- Criando uma aplicação console
+		- Criando aplicação
+			- dotnet new console -n nome
 	
  Conhecendo o C#
  
 	- O que é e como funciona o C#
+		- O que é o C#
+			- É uma linguagem elegante, orientada a objetos e 
+			fortemente tipada.
+			- A sintaxe do C# é similar a do C, C++ ou Java.
+			- Suporta os conceitos de encapsulamento, herança e
+			polimorfismo (OO)
+			- Os programas C# são executadas no .NET, que inclui:
+				- CLR (Commo Language Runtime)
+				- Conjunto unificado de bibliotecas de classes
+			- Atualmente o compilador do C# é o Roslyn
+		- Como funciona
+			- O código-fonte escrito em C# é compilado em uma 
+			linguagem intermediária (IL)
+			- O código e os recursos de IL são armazenados no disco
+			em um arquivo executável chamado assembly, geralmente 
+			com uma extensão .exe ou .dll
+			- Quando o programa C# é executado, o assembly é carregado no CLR
+			- Em seguida o CLR executára a compilação just in time (JIT) para
+			converter o código IL em instruções de máquina nativas
+			- O CLR também fornece outros serviços
+				- Garbage Collector 
+				- Exception Handler
+				- Resources Manager
+			- Além dos serviços de tempo de execução, o .NET também
+			inclui uma extensa biblioteca com milhares de classes que 
+			fornecem uma ampla variedade de funcionalidades úteis, desde
+			entrada e saída de arquivos, manipulação de cadeias de caracteres,
+			análise XML, etc.
+			
 	- Estrutura de programa
-	
+		- Principais conceitos organizacionais em C#:
+			- programas
+			- namespaces
+			- tipos
+			- membros
+			- assemblies
+		- Programas C# consistem em um ou mais arquivos
+		- os programs declaram tipos, que contêm membros e 
+		podem ser organizados em namespaces
+		- Classes e interfaces são exemplos de tipos
+		- Campos, métodos, propriedades e eventos são 
+		exemplos de membros
+		- Quando os programas C# são compilados, eles são 
+		fisicamente empacotados em assemblies
+		- Os assemblies geralmente têm a extensão .exe ou .dll, 
+		dependendo se são aplicações ou bibliotecas
+			
  Conhecendo variáveis e instruções 
  
 	- Tipo de valor
+		- Variaveis de tipos de valor cotêm diretamente seus dados
+		- As variáveis têm sua própria cópia dos dados e não é possível
+		que as operações afetem outra variável (exceto no caso das variáveis)
+		de parâmetro ref ou out)
+		- Tipos de valor
+			- Numéricos:
+				- sbyte, short, int, long, byte, unit, ulong
+			- Caracteres Unicode: char
+			- Pontos flutuantes: float, double, decimal
+			- Booleano: Bool
+			- enum, struct, tipos nullable
+		- Variaveis de tipos de referência armazenam referências 
+		a seus dados.
+		- É possível que duas variáveis façam referência ao mesmo 
+		objeto e, portanto, que operações em uma variável afetem o
+		objeto referenciado pela outra variável.
+		- Tipos de referência 
+			- Tipos de classe: class, object, string
+			- Tipos de Arrays: int[], int[,], etc...
+			- interface, delegate
+					
 	- Utilizando instruções em programas
+		- Ações de um programa são expressas usando instruções
+			{
+				Um bloco permite que várias instruções sejam escritas
+				em contextos
+			}
+		- Instruções
+			- Declaração de variáveis e constantes locais
+			- if
+			- switch
+			-  while
+			- do
+			- for 
+			- foreach
+		- Instruções auxiliares
+			- break
+			- continue
+			- return
+			- throw
+			- try.. catch.. finally
+			- using
+			
 	- Exemplificando o conteúdo
+		- Arrays
+			- Um array é uma estrutura de dados que contém um 
+			npumero X de elementos, todos do mesmo tipo, que são 
+			acessados através de índices cumputados.
+			- Arrays são tipos de referência e a declaração de uma
+			variável array simplismente resetva espaço para uma 
+			referência de uma instância de array.
+			- Ao criar um array é especificado o tamanho da nova 
+			instância, que é fixo durante todo o tempo de vida 
+			da instância.
+			- Os índices dos elementos de um array variam de 0 a 
+			comprimento do array -1.
+			
 	
  Classes e objetos essenciais em C#
  
