@@ -157,17 +157,104 @@ Primeiros passos com .NET
 			da instância.
 			- Os índices dos elementos de um array variam de 0 a 
 			comprimento do array -1.
-			
 	
  Classes e objetos essenciais em C#
  
 	- O que são Classes e Objetos em C#
+		- Classes 
+			- São tipos mais fundamentais de C#
+			- Uma classe é uma esturtura de dados que combina
+			estado (campos) e ações (métodos)
+		- Objetos 
+			- São instâncias de uma classe
+			- As classes  suportam herança e polimorfismo,
+			mecanismos pelos quais as classes derivadas podem
+			estender e especializar as classas base
+		- Instâncias de classes
+			- Instâncias de classes (objetos) são criadas usando
+			o operados new, que aloca memória para uma nova instância,
+			chama um construtor para inicializar a instância e retorna
+			uma referência à instância
+				Ponto p1 = new Ponto(0,0);
+				Ponto p2 = new Ponto(10,20);
+			- A memória ocupada por um objeto é recuperada automaticamente
+			quando o objeto não está mais acessível. Não é necessãrio nem 
+			possível desalocar explicitamente objetos em C#
+		- Membros 
+			- Os membros de uma classe podem ser estáticos ou 
+			membros da instância
+			- Membros estáticos pertencem a classe e membros de instância
+			pertencem ao objeto 
+			- Cosntantes, variáveis, métodos, propriedades, construtores e etc...
+		- Acessibilidade 
+			- Casa membro de uma classe tem uma acessibilidade associada,
+			que controla as regiões do texto do programa que podem acessar o membro
+				- Podem ser: 
+					- public
+					- protected 
+					- internal
+					- private
+		- Herança 
+			- Uma declaração de classe pode especificar uma classe base,
+			herdando os membros public, internal e protected da classe base
+			- Omitir uma especificação de classe base é o mesmo que derivar 
+			do tipo object
+		- Métodos
+			- Um método é um membro que implementa uma computação ou ação
+			que pode ser executada por um objeto ou classe
+			- Os métodos podem ter uma lista de parâmetros, que representam 
+			valores ou referências de variáveis passadas para o método, e um 
+			tipo de retorno,que especifica o tipo do valor calculado e 
+			retornado pelo método
+		
 	- Como aplicar classes e objetos em projetos
+		- Vitural
+			Permite que a classe filha sobscreva a atuação dele 
+			com override
+		- Static 
+			- Pertence a classe 
 	
  Trabalhando com structs, interfaces e enums
  
 	- O que são structs
+		- Structs
+			- Como as classes, as structs são estruturas de dados que 
+			podem conter membros de dados e membros de ação, mas, diferentemente
+			das classes, as structs são tipos de valor e não requerem alocação de heap
+			- Uma variável de um tipo de struct armazena diretamente os dados 
+			da estrutua, enquanto uma variável de um tipo de classe armazena uma
+			referência a um objeto alocado na memória
+			- Structs não aceitam herança determinada pelo desenvolvedor
+			- São úteis para pequenas estruturas de dados que possuem semântica
+			de valor: números complexos, pontos em um sistema de coordenadas ou pares
+			de chave-valor em um dicionário são bnos exemplos de utilização
+			- O uso de structs em vez de classes para pequenas estruturas de dados pode
+			fazer uma grande diferença no número de alocações de memória
+			- O constutor de structs são chamados com o operador new, semelhante a 
+			um construtor de classe, mas em vez de alocar dinamicamente um objeto no heap
+			gerenciado e retornar uma referência a ele, um constutor struct simplismente 
+			retorna o próprio valor struct (normalmente em um local temporário na stack),
+			e esse valor é copiado conforme necessário
+	
 	- Entendendo a função de interfaces e enums
+		- Interfaces 
+			- Uma interface define um contrato que pode ser implementado 
+			por classe e structs
+			- Uma interface pode conter métodos, propriedades, eventos e indexadores
+			- Uma interface não fornece implementações dos membros que define - apenas 
+			suas "assinaturas"
+			- As interfaces podem empregar herança múltipla
+		- Enums
+			- É um tipo de valor distinto com um conjunto de constantes nomeadas
+			- Você define enumerações quando precisa definir um tipo que pode
+			ter um conjunto de valores discretos. Eles usam um dos tipo de valor
+			integral como armazenamento subjacente. Eles fornecem significado 
+			semântico aos valores discretos
+			- Cada tipo de enum possuio um tipo integral correspondente chamado 
+			tipo subjacente do tipo de enum
+			- Um tipo de enumeração que não declara explicitamente um tipo 
+			subjacente tem um tipo subjacente int
+			
 
  Uma síntese do que é .NET
  
