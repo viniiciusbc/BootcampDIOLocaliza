@@ -255,10 +255,10 @@ Primeiros passos com .NET
 			- Um tipo de enumeração que não declara explicitamente um tipo 
 			subjacente tem um tipo subjacente int
 			
-
  Uma síntese do que é .NET
  
 	- Revisão introdutória 
+		- 
 	- Praticando primeiros passos
 	- Dinâmica de desenvolvimento 
 	- Considerações finais
