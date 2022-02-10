@@ -15,14 +15,14 @@ Repositório destinado a anotações do Bootcamp DIO - Localiza.
  - IDE Instalação e configuração (Visual Studio)
  - Introdução ao C# e .NET
  - Primeiros passos com .NET
- - Criando o ambiente de desenvolvimento
 
 ## Conteúdo em andamento 
 
- - Programmando com Orientação a Objeto com C#
+ - Criando o ambiente de desenvolvimento
 
 ## Conteúdos a fazer
 
+ - Programmando com Orientação a Objeto com C#
  - Construtores, propriedades, delegates e eventos em .NET
  - Fundamentos de coleções e LINQ com .NET
  - Introdução a microserviços com .NET

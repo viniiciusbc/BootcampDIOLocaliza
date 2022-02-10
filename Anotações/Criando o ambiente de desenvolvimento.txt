@@ -1,0 +1,46 @@
+Criando o ambiente de desenvolvimento 
+
+ Instalação do .NET
+	- Apresentação do curso
+	- Instalando o .NET
+		- 
+ Net Framework, Core e 5
+	- Diferenças entre .NET Framework, Core e 5
+		- .NET Framework
+			- Roda somente em Windows 
+			- Ano 2002
+			- Web
+		- .NET Core
+			- Ano 2006
+			- Web
+			- Windows
+			- Linux
+			- macOS
+		- .NET Standarde
+			- Bibliotecas de classe base
+		- .NET 5
+			- Ano 2020
+			- Plataforma unificada
+ Framework e Runtime
+	- Framework e Runtime
+		- Framework
+			- Ferramentas/componentes prontos para serem usados 
+		- Runtime
+			- Transforma linha de código em linguagem de máquina
+ Conhecendo a CLI do .NET
+	- Conhecendo a CLI do .NET
+		- CLI (Command-Line Interface)
+			- Processa os comandos que serão enviados para um programa de 
+			computador na forma de linhas de texto.
+			- Comandos .NET
+				- dotnet --version (Verificar versão)
+				- dotnet --help (apresenta alguns comandos e descrições)
+				- dotnet --info (informações sobre o dotnet, SO, local de instalação)
+				- dotnet new (criação de projetos)
+				- dotnet new --list --tag web (lista tipos por tag)
+				-- dotnet new --help (apresenta alguns comandos relacionados ao new)
+				-- dotnet new console -o myApp (Cria novo projeto com tipo console)
+				-- dotnet run (Executa o projeto)
+				-- dotnet build (Compila o projeto)
+				-- dotnet restore (Restore de projetos com as dependencias perdidas/apagadas)
+				
