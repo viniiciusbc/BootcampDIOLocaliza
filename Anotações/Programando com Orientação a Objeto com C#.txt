@@ -1,0 +1,82 @@
+Programando com Orientação a Objeto com C#
+
+ Introdução 
+	- Introdução ao Curso
+	
+ Conhecendo a Programação orientada a Objetos
+	- Apresentando a programação orientada a objetos
+		- A POO é um paradigma de programação, ou seja, corresponde
+		a uma técnica de programação para um fim específico.
+		- Dentro desta técnica, existem quatro pilares:
+			- Abstração 
+			- Encapsulamento
+			- Herança
+			- Polimorfismo
+		- O principal conceito da POO são classes e objetos 
+			- Classes
+				- Molde com elementos que fazem sentido para o contexto
+			- Método 
+				- Ação quem o objeto fará
+			- Objetos
+				- Objeto é a construção de uma classe, uma classe materializada 
+		
+	- Tipos de Paradigmas 
+		- Paradigma de programação é diferente de linguagem de programação
+		- Uma linguagem de programação implenta um ou mais paradigmas 
+		- Um para nada mais é do que um modelo de técnicas, estruturas e formas
+		de solucionar um problema
+		- Tipos de paradigmas
+			- Programação orientada a objetos (estudando atualmente)
+			- Programação estruturada
+			- Programando imperativa
+			- Programação procedural 
+			- Programação orientada a eventos
+			- Programação lógica
+		
+		
+ Abstração 
+	- Entendendo o que é abstração 
+	- Requisitos para o projeto 
+	- Abstração na prática 
+	
+ Encapsulamento 
+	- Introdução encapsulamento 
+	- Encapsulamento na prática 
+
+ Herança 
+	- Introdução herança
+	- Herança na prática 
+
+ Polimorfismo 
+	- Introdução polimorfismo 
+	- Polimorfismo em tempo de execução 
+	- Polimorfismo tempo de compilação 
+ 
+ Classes abstratas
+	- introdução classes abstratas 
+	- Classes abstratas na prática 
+	- Introdução métodos selados
+	- Métodos selados na prática 
+	Introdução casse object 
+	- Classe object na prática 
+
+ Interfaces
+	- Introdução a interfaces
+	- Interfaces na prática 
+	- Interfaces com implementação de métodos
+	
+ Manipulando arquivos 
+	- Introdução arquivos 
+	- Listar diretórios 
+	- Listar arquivos
+	- Criar diretório 
+	- Apagar diretório 
+	- Criar arquivo texto com strem 
+	- Adicionar novas em um arquivo 
+	- Lendo Arquivos 
+	- movendo arquivo
+	- Copiando arquivo 
+	- Deletando arquivos 
+	
+ Conclusão 
+	- Conclusão
